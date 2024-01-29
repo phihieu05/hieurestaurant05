@@ -1,0 +1,37 @@
+.box1-menu-main-item1 button:nth-child(-n + 3) {
+  background-color: var(--violet-color);
+}
+.box1-menu-main-item1 button:nth-child(n + 5) {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item1 button:nth-child(4) {
+  background-color: var(--orange-color);
+}
+
+.box1-menu-main-item2 button {
+  background-color: var(--yellow-color);
+}
+.box1-menu-main-item3 button,
+.box1-menu-main-item4 button {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item5 button:nth-child(-n + 2) {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item5 button:first-child {
+  background-color: #22a9aa;
+}
+.box1-menu-main-item6 button {
+  background-color: #f98949;
+}
+.box1-menu-main-item6 button:first-child {
+  background-color: #c6c0f2;
+}
+.box1-menu-main-item7 button:nth-child(-n + 3) {
+  background-color: #f98949;
+}
+
+.box1-menu-main-item7 button:nth-child(n + 4) {
+  background-color: var(--red-color);
+  color: #fff;
+}

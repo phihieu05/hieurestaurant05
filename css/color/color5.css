@@ -1,0 +1,28 @@
+.box1-menu-main-item1 button:nth-child(-n + 3) {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item1 button:nth-child(n + 5) {
+  background-color: orangered;
+}
+.box1-menu-main-item3 button:nth-child(-n + 2) {
+  background-color: var(--green-color);
+}
+
+.box1-menu-main-item3 button:first-child {
+  background-color: rgb(252, 71, 5);
+}
+
+.box1-menu-main-item4 button:nth-child(-n + 3) {
+  background-color: rgb(23, 150, 213);
+}
+
+.box1-menu-main-item5 button:nth-child(-n + 5) {
+  background-color: rgb(83, 8, 174);
+  color: #fff;
+}
+.box1-menu-main-item7 button:first-child {
+  background-color: var(--orange-color);
+}
+.box1-menu-main-item7 button:nth-child(n + 5) {
+  background-color: rgb(224, 87, 183);
+}

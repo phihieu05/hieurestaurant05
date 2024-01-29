@@ -1,0 +1,35 @@
+.box1-menu-main-item1 button,
+.box1-menu-main-item2 button {
+  background-color: orangered;
+}
+.box1-menu-main-item3 button,
+.box1-menu-main-item4 button {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item3 button:last-child {
+  background-color: orangered;
+}
+.box1-menu-main-item5 button {
+  background-color: var(--yellow-color);
+}
+.box1-menu-main-item6 button:nth-child(-n + 4) {
+  background-color: var(--yellow-color);
+}
+.box1-menu-main-item6 button:nth-child(2) {
+  background-color: rgb(20, 188, 235);
+}
+.box1-menu-main-item6 button:last-child {
+  background-color: var(--yellow-color);
+}
+.box1-menu-main-item7 button:nth-child(4) {
+  background-color: rgb(20, 188, 235);
+}
+.box1-menu-main-item7 button:nth-child(3) {
+  background-color: var(--green-color);
+}
+.box1-menu-main-item7 button:nth-child(-n + 2) {
+  background-color: var(--orange-color);
+}
+.box1-menu-main-item7 button:nth-child(n + 5) {
+  background-color: rgb(224, 87, 183);
+}

@@ -1,0 +1,236 @@
+:root {
+  --violet-color: blueviolet;
+  --orange-color: orange;
+  --yellow-color: #fede07;
+  --green-color: #467d3a;
+  --red-color: red;
+  --pink-color: rgb(247, 18, 193);
+  --greenlight-color: rgba(10, 252, 204, 0.861);
+  --blue-color: rgb(30, 131, 174);
+}
+.cl-blue {
+  background-color: var(--blue-color) !important;
+}
+.cl-pink {
+  background-color: var(--pink-color) !important;
+}
+.cl-violet {
+  background-color: var(--violet-color) !important;
+}
+
+.cl-orange {
+  background-color: var(--orange-color) !important;
+}
+
+.cl-yellow {
+  background-color: var(--yellow-color) !important;
+}
+
+.cl-green {
+  background-color: var(--green-color) !important;
+}
+.cl-greenlight {
+  background-color: rgba(10, 252, 204, 0.861) !important;
+}
+
+.cl-red {
+  background-color: var(--red-color) !important;
+}
+
+.cl-greenlight {
+  background-color: var(--greenlight-color) !important;
+}
+
+.container {
+  background-color: #fff;
+}
+.f-cl-white {
+  color: #fff;
+}
+.col-8 {
+  width: 825px;
+}
+
+.box1-menu-item a,
+.box1-menu-item span {
+  background-color: rgb(83, 16, 146);
+  display: block;
+  width: 110px;
+  color: #fff;
+  height: 70px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 13px;
+  font-style: bold;
+  font-weight: 600;
+}
+.box1-menu-item span {
+  background-color: gray;
+  height: 34px;
+  line-height: 34px;
+}
+.box1-menu-main {
+  margin-left: 3px;
+}
+.box1-menu-main button {
+  width: 110px;
+  height: 70px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 13px;
+  font-style: bold;
+  font-weight: 600;
+  border: none;
+  color: #000;
+}
+.box1-menu-main-foot button:first-child,
+.box1-menu-main-foot button:last-child {
+  background-color: grey;
+  color: #fff;
+  width: 53px;
+}
+
+.box1-menu-item-right {
+  margin-left: 2px;
+}
+.box1-menu-item-right button {
+  display: block;
+  width: 25px;
+  height: 190px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 13px;
+  font-style: bold;
+  font-weight: 600;
+  border: none;
+  color: #000;
+  background-color: gray;
+}
+.box2 {
+  background-color: rgb(89, 7, 176);
+  width: 823px;
+  color: #fff;
+}
+.box2-item1 {
+  margin-left: 10px;
+}
+.box2-item2,
+.box2-item-price {
+  margin-left: 70px;
+}
+.mgl {
+  margin-left: 40px;
+}
+.box2-item-price table tr td label {
+  margin-left: 40px; /* hoặc giá trị margin-left khác tùy chọn */
+}
+.box2-item-price table tr td span {
+  font-weight: 400;
+  font-size: larger;
+}
+.fs-bold {
+  font-style: bold;
+}
+.box3 {
+  margin-top: 2px;
+  width: 823px;
+}
+.box3-item button {
+  width: 72.7px;
+  height: 72.7px;
+  border: none;
+  margin-left: 2px;
+
+  margin-top: 2px;
+  background-color: rgb(211, 198, 198);
+}
+.box3-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-right {
+  margin-left: none;
+}
+.box-right-1 {
+  height: 576px;
+}
+.box-right-2 {
+  height: 300px;
+}
+.box-right-1-header1 span {
+  background-color: rgb(66, 13, 88);
+  margin-left: 2px;
+  width: 86px;
+  color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+}
+.box-right-1-header2 span {
+  margin-left: 2px;
+  width: 86px;
+  color: #000;
+  background-color: #dedbca;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.box-right-1-main {
+  background-color: #caa8a8;
+  height: 420px;
+}
+.box-right-1-footer2 {
+  background-color: rgb(66, 13, 88);
+  height: 20px;
+}
+.box-right-1-footer1 {
+  display: flex;
+}
+
+.box-right-1-footer1 button {
+  min-width: 86px;
+  min-height: 86px;
+  margin-right: 2px;
+  color: #fff;
+  background-color: rgb(244, 28, 129);
+  font-weight: 600;
+  border: none;
+}
+.box-right-2-item1 {
+  margin-left: 3px;
+  margin-top: 1px;
+}
+.box-right-2-item1 button {
+  min-width: 82px;
+  min-height: 73px;
+  margin-right: 1px;
+
+  background-color: #467d3a;
+  font-weight: 600;
+  border: none;
+}
+.calculator button:nth-child(-n + 4) {
+  background-color: #432470;
+  color: #fff;
+}
+.calculator button:first-child {
+  background-color: #0fba86;
+}
+.box-right-1-main-item {
+  height: 24px;
+}
+.box-right-1-main-item span:first-child {
+  display: inline-block;
+  width: 90px;
+}
+.box-right-1-main-item span:nth-child(2) {
+  display: inline-block;
+  width: 270px;
+}
+
+.box1-menu-item a:hover {
+  background-color: #caa8a8;
+}
